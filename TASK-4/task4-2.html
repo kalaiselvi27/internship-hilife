@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                width:150px ;
+                height:150px;
+                background-color: rgb(67, 228, 228);
+                position:relative;
+                animation:myfirst 3s linear 2s infinite alternate;
+                }
+                @media screen and (min-width:200px){
+                .responsive{
+                    width:200px;
+                    height:500px ;
+                }
+            }
+            @keyframes myfirst {
+                0%{
+                    background-color: salmon; left:50px ; top:10px ;
+                }
+                25%{
+                     background-color: blue;  left: 100px; top:10px;     
+                }
+                50%{
+                    background-color: cyan; left:100px; top:10px;
+                }
+                75%{
+                    background-color: darkcyan; left:200px; top:30px;
+                }
+                100%{
+                    background-color: darkslateblue; left:40px; top:20px;
+                }
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h3>ANIMATION</h3>
+        <div></div>
+    </body>
+</html>
+

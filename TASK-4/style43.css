@@ -1,0 +1,17 @@
+.flex-container{
+    display: inline-flex;
+    display: flex;
+    background-color: cyan; flex-direction: row;  
+   width: 500px;
+   -i
+    
+   }
+   .flex-item{
+    background-color: darkblue;
+    padding: 50px;
+    border: 1px solid red;
+    width:500px; 
+    font-size: 20px;
+    color: darkgreen;
+    margin: 20px;
+   }

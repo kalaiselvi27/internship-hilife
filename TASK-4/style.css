@@ -1,0 +1,18 @@
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+} 
+.p{
+    font-family:'Times New Roman', Times, serif;
+    color: pink;
+    opacity: 0.7;
+    word-spacing:10px;
+    line-height:30px;
+    border:dotted;
+    border-color: black;
+    }
+    img{
+        width: 90px;
+        height:90px;
+        filter: blur(50 px);
+    }

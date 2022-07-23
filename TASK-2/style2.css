@@ -1,0 +1,9 @@
+div{
+    background-image: url("h.jpeg");
+    width:700px ;
+    height: 500px;
+    background-image: fixed;
+    background-position: center  ;
+    background-size: cover;
+    background-attachment: fixed;
+}
